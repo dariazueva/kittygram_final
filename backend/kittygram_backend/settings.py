@@ -10,7 +10,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 SECRET_KEY = os.getenv('SECRET_KEY', default='1')
 
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['158.160.16.234', '127.0.0.1', 'kittygram-finalka.ddns.net']
 

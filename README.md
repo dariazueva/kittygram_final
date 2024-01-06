@@ -39,12 +39,12 @@ source venv/bin/activate
 ```bash
 pip install -r requirements.txt
 ```
-#### В папке kittygram/ создайте файл .env по образцу:
+#### Создайте файл .env и заполните его своими данными по образцу.
 ```bash
-POSTGRES_USER=django_user
-POSTGRES_PASSWORD=mysecretpassword
-POSTGRES_DB=django
-DB_HOST=db
+POSTGRES_DB=kittygram
+POSTGRES_USER=kittygram_user
+POSTGRES_PASSWORD=kittygram_password
+DB_HOST=kittygram
 DB_PORT=5432
 ```
 
